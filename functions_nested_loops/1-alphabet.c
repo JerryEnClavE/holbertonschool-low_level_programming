@@ -1,20 +1,18 @@
-#include "holberton.h"
+"main.h"
 /**
- * print_alphabet - function to print abc
+ * print_alphabet - function that prints the alphabet
  *
- * Return: 0
+ * Return: Always 0.
  */
-void print_alphabet(void)
+void print_alphabet(void) 
+
 {
+   
 	char c;
 
-	for (c = 'a'; c <= 'z'; c++)
-}	
-{
+	for (c = 'a'; c<= 'z'; c++)
+	{
 	_putchar(c);
-	
+	}
 	_putchar('\n');
-
-	returm 0;
-}
-
+}    
