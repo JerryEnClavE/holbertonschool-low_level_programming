@@ -1,17 +1,27 @@
 #include "main.h"
 
 /**
- * print_most_numbers - Prints the numbers from 0-9 except for 2 and 4.
+ * more_numbers - function that checks for uppercase character
+ * Return: 0
  */
-void print_most_numbers(void)
+void more_numbers(void)
 {
-	int num;
 
-	for (num = 0; num <= 9; num++)
+	int a = 0;
+	int b = 0;
+
+	while (b <= 9)
 	{
-		if (num != 2 && num != 4)
-			_putchar((num % 10) + '0');
-	}
+		while (a <= 14)
+		{
+			if (a > 9)
+				_putchar(a / 10 + '0');
+			_putchar(a % 10 + '0');
+			a++;
 
+		}
 	_putchar('\n');
+	b++;
+	a = 0;
+	}
 }
