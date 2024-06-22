@@ -1,27 +1,23 @@
 #include "main.h"
 
 /**
- * print_diagonal - Draws a diagonal line using the \ character.
- * @n: The number of \ characters to be printed.
+ * print_line - function that checks for uppercase character.
+ * @n: is the integer for the paramaters of my function
+ * Return: 0
  */
-void print_diagonal(int n)
+void print_line(int n)
 {
-	int len, space;
+	int a = 0;
 
 	if (n > 0)
 	{
-		for (len = 0; len < n; len++)
+		while (a <= n)
 		{
-			for (space = 0; space <= len; space++)
-				_putchar(' ');
-			_putchar('\\');
-
-			if (len == n - 1)
-				continue;
-
-			_putchar('\n');
+			_putchar('_');
+			a++;
 		}
+	 _putchar('\n');
 	}
-
+	else
 	_putchar('\n');
 }
