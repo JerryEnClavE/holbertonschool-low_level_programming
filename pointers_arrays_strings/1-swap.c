@@ -11,9 +11,11 @@
  * Return: Always 0.
  */
 
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
-	int tmp = *a;
-	*a = *b;
-	*b = tmp;
+	int c;
+
+	c = *a;
+	 *a = *b;
+	 *b = c;
 }
