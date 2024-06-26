@@ -2,9 +2,11 @@
 #include <stdio.h>
 
 /**
- * _strcat - takes the source string src and appends it to the end of the destination string dest
+ * _strcat - concatenates two strings
+ * @dest: the destination string
+ * @src: the source string
  *
- * Return: Always 0.
+ * Return: a pointer to the resulting string
  */
 char *_strcat(char *dest, char *src)
 {
