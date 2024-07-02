@@ -1,19 +1,16 @@
-#include <stdlib.h>
 #include <stdio.h>
 
 /**
- * main - check the code
- *
- * Return: Always 0.
+ * main - prints name
+ * @argc:int
+ * @argv:char*
+ * Return:always 0
  */
+
 int main(int argc, char *argv[])
 {
-        int i;
+	argc++;
+	printf("%s\n", argv[0]);
 
-        for(i=0; i < argc; i++)
-        {
-                printf("%s", argv[i]);
-        }
-        putchar('\n');
-        return (0);
+	return (0);
 }
