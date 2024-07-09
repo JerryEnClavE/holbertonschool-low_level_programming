@@ -3,7 +3,7 @@
 
 /**
  * init_dog - star a variable
- * @d - it's the structure
+ * @d: it's the structure
  * @name: name of dog
  * @age: age of dog
  * @owner: owner of dog
