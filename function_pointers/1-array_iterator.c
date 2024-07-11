@@ -1,7 +1,7 @@
 #include "function_pointers.h"
 #include <stdio.h>
 /**
- * array_interator- una funcion egecuta a otra funcion y da un array
+ * array_iterator- fun exc a fun give a array
  * @array: primer valor
  * @size: funcion
  * @action: fruncion
