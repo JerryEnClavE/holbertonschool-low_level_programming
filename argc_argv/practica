@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+	int main() {
+	int num1, num2, res;
+
+	printf("ingrese el primer numero: ");
+	scanf("i%",&num1);
+	printf("ingrese el segundo numero: ");
+	scanf("i%",&num2);
+	res = num1 + num2;
+		printf("El resultado de la suma es %i",res);
+	
+	return 0;
